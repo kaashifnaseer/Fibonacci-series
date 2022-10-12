@@ -1,0 +1,17 @@
+x = int(input("Enter the number of sequence you want")) 
+n1 = 0 
+n2 = 1 
+count = 0 
+if x<0: 
+    print("Enter a higher number") 
+elif x==n1: 
+    print("the fibonacci series till" + n1) 
+    print(n1) 
+else: 
+    print("fibonacci series:") 
+    while count < x:
+            print(n1) 
+            nth = n1+n2 
+            n1=n2 
+            n2=nth 
+            count+=1
